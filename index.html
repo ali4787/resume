@@ -291,6 +291,17 @@
             margin-top: 2px;
         }
 
+        .profile-avatar {
+            width: 120px;       
+            height: 120px;        
+            border-radius: 50%;   
+            object-fit: cover;   
+            display: block;      
+            margin: 0 auto 15px auto; 
+            border: 3px solid var(--accent-blue, #38bdf8);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);    
+}
+
         @media screen and (max-width: 768px) {
             .grid-3-col, .footer-grid{
                 display: inline-block !important;
@@ -319,7 +330,10 @@
             </div>
         </div>
         <div class="header-main-title">
-            <h1>علیرضا روشن‌پور</h1>
+            <!-- افزودن تصویر پروفایل -->
+            <img src="avatar.jpg" alt="علیرضا روشن‌پور" class="profile-avatar">
+            
+            <h1>علیرضا روشن&zwnj;پور</h1>
             <h2>WordPress Developer | Python Developer<br>Technical SEO Specialist</h2>
         </div>
     </div>
