@@ -150,7 +150,7 @@
             width: 100%;
             table-layout: fixed;
             border-spacing: 10px;
-            margin: -10px;
+            /* margin: -10px; */
             margin-top: 2px;
             margin-bottom: 5px;
         }
@@ -290,6 +290,14 @@
             margin: -10px;
             margin-top: 2px;
         }
+
+        @media screen and (max-width: 768px) {
+            .grid-3-col{
+                display: inline-block !important;
+            }
+            .grid-row {
+                gap: 10px;
+            }
     </style>
 </head>
 <body>
